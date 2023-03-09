@@ -1,14 +1,13 @@
+
+dependencies: []
+
 galaxy_info:
-  author: your name
-  description: your role description
-  company: your company (optional)
-
- license: license (GPL-2.0-or-later, MIT, etc)
-
-  min_ansible_version: 2.1
-
-
- role_name: ntp-config
+  role_name: ntp
+  author: Dina Elhelw
+  description: NTP Role.
+  galaxy_tags:
+    - ntp
+  role_name: ntp-config
 
 
 
