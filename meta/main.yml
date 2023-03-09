@@ -6,7 +6,7 @@ galaxy_info:
   description: NTP Role.
   galaxy_tags:
     - ntp
-  role_name: ntp-config
+  role_name: ntp_config
 
 
 
