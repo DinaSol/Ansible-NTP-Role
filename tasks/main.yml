@@ -19,5 +19,5 @@
   tags: ntp
 - name: Set Timezone
   community.general.timezone:
-   name: Africa/Cairo
+   name: {{ time_zone_location }}
    
