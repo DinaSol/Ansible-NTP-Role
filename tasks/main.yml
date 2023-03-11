@@ -6,8 +6,8 @@
   tags: ntp
 - name: be sure ntp is configured
   template:
-    src: chrony.conf
-    dest: /etc/chrony.conf
+    src: {{ ntp-src_file }}
+    dest: {{ ntp-dest_file }}
   notify:
     - restart ntpd
   tags: ntp
